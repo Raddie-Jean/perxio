@@ -15,12 +15,14 @@ python3 -m http.server 8080 --directory _site
 
 ## 在线预览
 
-源码仓库：[Jean0708/perxio](https://github.com/Jean0708/perxio)。
+源码仓库：[Raddie-Jean/perxio](https://github.com/Raddie-Jean/perxio)。
 
 在 GitHub 的 **Settings → Pages → Source** 选择 **Deploy from a branch**，
 分支选择 **main**，目录选择 **/docs**，点击 **Save**。
 设置成功后，`main` 分支中的 `docs` 每次推送更新会自动重新部署。
-预览地址：<https://jean0708.github.io/perxio/>。
+预览地址：<https://raddie-jean.github.io/perxio/>。
+
+GitHub 用户名曾为 `Jean0708`；旧用户名对应的 Pages 地址目前返回 404，请使用上方新地址。
 
 已于 2026-09-27 验证上线：页面返回 HTTP 200，内容与本地发布文件一致；主要交互及桌面、手机尺寸检查通过。
 
